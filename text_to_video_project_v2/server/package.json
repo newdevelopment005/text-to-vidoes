@@ -1,0 +1,19 @@
+{
+  "name": "text-to-video-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "worker": "node workers/videoWorker.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bull": "^3.22.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "ffmpeg-static": "^4.2.7",
+    "fluent-ffmpeg": "^2.1.2",
+    "ioredis": "^4.27.6",
+    "uuid": "^8.3.2"
+  }
+}
